@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+}
+.head{
+    font-size: 50px;
+}
+
+.heading{
+    color: #FB8B47;
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.first-part{
+    width: 50%;
+    padding-left: 5%;
+}
+.first-part img{
+    width: 80%;
+}
+.order-btn{
+background-image:linear-gradient(to right,#FB9149 ,#FD4E2F );
+padding: 15px 30px;
+border-radius: 25px;
+border: none;
+margin-top: 20px;
+}
+
+
+
+
+.bg-img{
+    background-image: url("images/shapes/7.png");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.second-part img{
+    width: 50%;
+    padding-left: 70px;
+    padding-top: 120px;
+}
+.second-part{
+    width: 50%;
+    padding-right: 5%;
+}
+/* .details{
+    padding-top: 200px;
+} */
+
+.about-section{
+    padding-top: 200px;
+}
+
+.recipe-details p{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.img-part{
+    display: flex;
+    /* background-color: rgb(235, 235, 235); */
+    justify-content: center;
+    flex-direction: row;
+  }
+
+
+  .card{
+    box-shadow: 3px 4px 10px;
+    /* margin-left: 40px; */
+    margin-top: 50px;
+    border-radius: 15px;
+    margin: 20px;
+  }
+
+  .img-style{
+    width: 90%;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+
+  .img-body{
+    padding-left: 15px;
+}
+
