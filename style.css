@@ -21,6 +21,13 @@ section{
 .first-part img{
     width: 80%;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .order-btn{
 background-image:linear-gradient(to right,#FB9149 ,#FD4E2F );
 padding: 15px 30px;
@@ -36,12 +43,12 @@ margin-top: 20px;
     background-image: url("images/shapes/7.png");
     /* background-size: cover; */
     background-repeat: no-repeat;
-    height: 700px;
+    height: 500px;
 }
 .second-part img{
-    width: 50%;
+    width: 80%;
     padding-left: 70px;
-    padding-top: 120px;
+    padding-top: 70px;
 }
 .second-part{
     width: 50%;
@@ -50,7 +57,7 @@ margin-top: 20px;
 
 
 .about-section{
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .recipe-details p{
@@ -58,42 +65,34 @@ margin-top: 20px;
    
 }
 
-.title{
-    display: flex;
-    justify-content: center;
-    margin-left: 600px;
-}
-
-.img-part{
-    display: flex;
-    /* background-color: rgb(235, 235, 235); */
-    /* justify-content: center; */
-    /* flex-direction: row; */
-  }
-
-
-  .card{
-    box-shadow: 8px 8px 10px rgb(216, 215, 215);
-    /* margin-left: 40px; */
-    margin-top: 50px;
-    border-radius: 15px;
-    margin: 20px;
-  }
-
-  .img-style{
-    width: 90%;
-    justify-content: space-evenly;
+.card{
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 8px 8px 8px 8px rgb(216, 215, 215);
     border-radius: 20px;
+    margin-top: 50px;
+
+}
+.card img{
+    width: 80%;
     padding-top: 20px;
+    padding-left: 30px;
+}
+.card h2{
     padding-left: 20px;
-    padding-right: 20px;
-} 
-
-
-  .img-body{
-    padding-left: 15px;
+}
+.card p{
+    padding-left: 20px;
+ 
 }
 
+.title{
+    text-align: center;
+}
+
+.gallery{
+    text-align: center;
+}
 
 
 .network{
@@ -112,5 +111,22 @@ footer{
     background-color: black;
     padding-bottom: 40px;
 }
+
+.food-gallery{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.box{
+    display: block;
+    float: left;
+    width: 40%;
+    padding: 30px;
+}
+
+img{
+    width: 130%;
+}
+
 
 
