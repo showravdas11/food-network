@@ -59,6 +59,7 @@ margin-top: 20px;
 }
 
 
+
 .about-section{
     padding-top: 150px;
 }
@@ -114,6 +115,20 @@ footer{
     background-color: black;
     padding-bottom: 40px;
 }
+
+.shop{
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.free-shop img{
+    width: 100%;
+}
+.free{
+    text-align: center;
+}
+
 
 .food-gallery{
     margin-left: 120px;
